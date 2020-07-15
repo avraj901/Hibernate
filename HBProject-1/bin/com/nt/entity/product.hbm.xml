@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.nt.entity.Product" table="product">
+<id name="productId" column="product_id" type="int"></id>
+<property name="productName" column="pname" type="string"></property>
+<property name="productPrice" column="product_price" type="float"></property>
+<property name="productQuentity" column="product_quentity" type="int"></property>
+</class>
+</hibernate-mapping>
